@@ -1,0 +1,12 @@
+# Terraform 부품 (용량 큼, init으로 다시 받으면 됨)
+.terraform/
+
+# 공사 장부 (실제 리소스 정보가 들어 있음)
+*.tfstate
+*.tfstate.*
+
+# 실제 값 (회사 IP 등)
+*.tfvars
+
+# 열쇠 파일
+*.pem
